@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * a function used to check if d is a lower or uppercase letter
+ * _isalpha - a function used to check if d is a lower or uppercase letter
  * @c: is the int that will be used for the argument
  * Return: 0
  */
