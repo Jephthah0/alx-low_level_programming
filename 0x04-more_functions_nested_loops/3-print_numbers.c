@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_numbers - prints the numbers 0 to 9 followed by a new line
@@ -10,7 +11,7 @@ void print_numbers(void);
 
 	for (c = 0; c <= 9; c++)
 	{
-		_putchar("%d", c);
+		putchar(c);
 	}
-	_putchar('\n');
+	putchar(10);
 }
