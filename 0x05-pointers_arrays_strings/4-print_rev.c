@@ -6,9 +6,13 @@
  */
 void print_rev(char *s)
 {
-	if (*s)
+	int i, len, temp;
+	len = print_rev(a);
+
+	for (i = 0; i < len / 2; i++)
 	{
-		print_rev(s + 1);
-		_putchar("%c", *s);
+		temp = s[i];
+		s[i] = s[len - i - 1];
+		s[len - i - 1] = temp;
 	}
 }
