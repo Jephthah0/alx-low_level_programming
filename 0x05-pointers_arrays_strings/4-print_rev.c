@@ -2,7 +2,7 @@
 
 /**
  * print_rev - prints out characters in reversed order
- * @s: character to be printed
+ * @s: string to be printed
  *
  * Return: Always 0.
  */
