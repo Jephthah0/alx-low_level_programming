@@ -2,7 +2,7 @@
 
 /**
  * _strlen - prints the actual length  of a string
- * @s: character to print out
+ * @*s: character to print out
  *
  * Return: Always o.
  */
