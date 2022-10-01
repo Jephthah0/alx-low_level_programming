@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctyoe.h>
+#include <ctype.h>
 
 /**
  * main - adds numbers
