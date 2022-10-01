@@ -56,3 +56,41 @@ int _atoi(char *s)
 
 	return (result * sign_cache);
 }
+
+/**
+* multiply_two_nums - Multiplies two numbers
+* @num1: A number
+* @num2: A number
+* Return: Result of num1 * num2
+*/
+
+int multiply_two_nums(int num1, int num2)
+{
+	return (num1 * num2);
+}
+
+/**
+* print_number - Prints numbers chars
+* @n: Integers params
+* Return: 0
+*/
+
+void print_number(int n)
+{
+	unsigned int n1;
+
+	n1 = n;
+
+	if (n < 0)
+	{
+		_putchar('-');
+		n1 = -n;
+	}
+
+	if (n1 / 10 != 0)
+	{
+		print_number(n1 / 10);
+	}
+
+	_putchar((n1 % 10) + '0');
+}
